@@ -68,10 +68,6 @@ export default function Login() {
             {loading ? 'Signing in...' : 'Sign In'}
           </button>
         </form>
-
-        <div className="login-hint">
-          <p>Admin demo: <code>admin</code> / <code>admin123</code></p>
-        </div>
       </div>
     </div>
   );
