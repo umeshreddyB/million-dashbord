@@ -1,4 +1,6 @@
-const API_BASE = '/api';
+const API_BASE = (
+  import.meta.env.VITE_API_BASE_URL || 'https://million-dashbord.onrender.com/api'
+).replace(/\/$/, '');
 
 function getToken() {
   return localStorage.getItem('token');
